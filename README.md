@@ -6,8 +6,7 @@
 
 ## Project Description / Outline  
 
-- We will analyze the US Stock price
-- We will trying to find any metrics (any nytimes API finding things with company name) that would be correlated to close price for a particular stock. apply linear regression, use Pearson Correlation method
+- We will explore to identify the correlations between various macroeconomic indicators and US stock prices
 
 << Stock Profits vs Month >>
 - Monthly profits average (10 years) for each month (correlation between price and Month) by bar chart
