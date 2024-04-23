@@ -12,7 +12,7 @@
 - Monthly profits average (10 years) for each month (correlation between price and Month) by bar chart
 
 << Stock Profits vs US Presidential election year or normal year >>
-- Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by blue dot by scatter plot
+- Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) by scatter plot
 
 << Stock Profits vs unemployeement >>
 - Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API
