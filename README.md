@@ -5,11 +5,14 @@
 ## Team Members : Jun Nam, Yau Shu Wong, Bailey, Rekha
 
 ## Project Description / Outline  
-1. Outline projects ideas
+
 - We will analyze the US Stock price
 - We will trying to find any metrics (any nytimes API finding things with company name) that would be correlated to close price for a particular stock. apply linear regression, use Pearson Correlation method
 
+<< Stock Profits vs Month >>
 - Monthly profits average (10 years) for each month (correlation between price and Month) by bar chart
+
+<< Stock Profits vs US Presidential election year or normal year >>
 - Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by blue dot by scatter plot
 
 << Stock Profits vs unemployeement >>
@@ -22,11 +25,23 @@
 - Monthly profits [same month with interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
 - Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
 
+<< Stock Profits vs 2 year US Bond rate>>
+- Monthly profits (y-axis) vs 2 year US Bond Monthly rate (x-axis) by scatter plot using Fiscal Data API
+- Monthly profits (y-axis) vs 10 year US Bond Monthly rate (x-axis) by scatter plot using Fiscal Data API
+
+<< Stock Profits vs US Dollar index >>
+- Monthly profits (y-axis) vs Monthly dollar index value (x-axis) by scatter plot using Alphavantage API
+
+<< Stock Profits vs US Volatility index (VIX) >>
+- Daily profits (y-axis) vs Daily VIX index (x-axis) by scatter plot using Alphavantage API
+
 
 ## Datasets to Be Used
 - https://data.nasdaq.com/api/v3/datasets/WIKI/AAPL.json?start_date=1985-05-01&end_date=1997-07-01&order=asc&column_index=4&collapse=quarterly&transformation=rdiff
 - BLS (U.S Bureau of Labor Statistics) API : https://www.bls.gov/developers/
 - FRED (economic) API : https://fred.stlouisfed.org/docs/api/fred/
+- Fiscaldata treasury : https://fiscaldata.treasury.gov/api-documentation
+- Alphavantage API : https://www.alphavantage.co/documentation/
 
 ## Breakdown of Tasks
-- Each members will take 2 tasks 
+- Each members will take 3 tasks 
