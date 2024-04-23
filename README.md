@@ -7,14 +7,14 @@ Monthly profits average (10 years) for each month (correlation between price and
 Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by blue dot by scatter plot
 
 << Stock Profits vs unemployeement >>
-- Monthly profits [one month before unemployeement announce] (x-axis) vs unemployeement rate (y-axis) by scatter plot using BLS API
-- Monthly profits [same month with unemployeement announce] (x-axis) vs unemployeement rate (y-axis) by scatter plot using BLS API
-- Monthly profits [one month after unemployeement announce] (x-axis) vs unemployeement rate (y-axis) by scatter plot using BLS API
+- Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API
+- Monthly profits [same month with unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API
+- Monthly profits [one month after unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API
 
 << Stock Profits vs Interest rate >>
-- Monthly profits [one month before interest rate announce] (x-axis) vs interest rate (y-axis) by scatter plot using FRED API
-- Monthly profits [same month with interest rate announce] (x-axis) vs interest rate (y-axis) by scatter plot using FRED API
-- Monthly profits [one month after interest rate announce] (x-axis) vs interest rate (y-axis) by scatter plot using FRED API
+- Monthly profits [one month before interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
+- Monthly profits [same month with interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
+- Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
 
 
 2. We will use data nasdq API, Date, Open, Close columns
