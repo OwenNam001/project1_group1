@@ -1,4 +1,8 @@
 # project1_group1
+
+## Title
+Exploring Correlations in the Stock Market
+
 1. Outline projects ideas
 - We will analyze the US Stock price
 - We will trying to find any metrics (any nytimes API finding things with company name) that would be correlated to close price for a particular stock. apply linear regression, use Pearson Correlation method
