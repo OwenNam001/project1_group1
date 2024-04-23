@@ -26,15 +26,18 @@
 - Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
 
 << Stock Profits vs 2 year US Bond rate>>
-- Monthly profits (y-axis) vs 2 year US Bond Monthly rate (x-axis) by scatter plot using Fiscal Data API
-- Monthly profits (y-axis) vs 10 year US Bond Monthly rate (x-axis) by scatter plot using Fiscal Data API
+- Monthly profits (y-axis) vs 2 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API
+- Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API
 
 << Stock Profits vs US Dollar index >>
-- Monthly profits (y-axis) vs Monthly dollar index value (x-axis) by scatter plot using Alphavantage API
+- Monthly profits (y-axis) vs Monthly dollar index change (x-axis) by scatter plot using Alphavantage API
 
 << Stock Profits vs US Volatility index (VIX) >>
-- Daily profits (y-axis) vs Daily VIX index (x-axis) by scatter plot using Alphavantage API
+- Daily profits (y-axis) vs Daily VIX index change (x-axis) by scatter plot using Alphavantage API
 
+<< Stock Profits vs Gold Price, BITCOIN >>
+- Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API
+- Monthly profits (y-axis) vs Monthly BITCOIN Price change (x-axis) by scatter plot using Alphavantage API
 
 ## Datasets to Be Used
 - https://data.nasdaq.com/api/v3/datasets/WIKI/AAPL.json?start_date=1985-05-01&end_date=1997-07-01&order=asc&column_index=4&collapse=quarterly&transformation=rdiff
@@ -44,4 +47,4 @@
 - Alphavantage API : https://www.alphavantage.co/documentation/
 
 ## Breakdown of Tasks
-- Each members will take 3 tasks 
+- Each members will take 3 ~ 4 tasks 
