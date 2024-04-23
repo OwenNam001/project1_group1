@@ -18,21 +18,26 @@
 - Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API
 - Monthly profits [same month with unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API
 - Monthly profits [one month after unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API
+- Monthly closing Stock price and unemployeement rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot
 
 << Stock Profits vs Interest rate >>
 - Monthly profits [one month before interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
 - Monthly profits [same month with interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
 - Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API
+- Monthly closing Stock price and Interest rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot
 
 << Stock Profits vs 2 year US Bond rate>>
 - Monthly profits (y-axis) vs 2 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API
 - Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API
+- Daily closing Stock price and 2, 10 year US Bond rate (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot
 
 << Stock Profits vs US Dollar index >>
 - Monthly profits (y-axis) vs Monthly dollar index change (x-axis) by scatter plot using Alphavantage API
+- Daily closing Stock price and US Dollar index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot
 
 << Stock Profits vs US Volatility index (VIX) >>
 - Daily profits (y-axis) vs Daily VIX index change (x-axis) by scatter plot using Alphavantage API
+- Daily closing Stock price and VIX index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot
 
 << Stock Profits vs Gold Price, BITCOIN >>
 - Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API
@@ -46,4 +51,4 @@
 - Alphavantage API : https://www.alphavantage.co/documentation/
 
 ## Breakdown of Tasks
-- Each members will take 3 ~ 4 tasks 
+- Each members will take 5 tasks 
