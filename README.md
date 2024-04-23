@@ -1,7 +1,7 @@
 # project1_group1
 
-## Title
-Exploring Correlations in the Stock Market
+## Title 
+## Exploring Correlations in the Stock Market
 
 1. Outline projects ideas
 - We will analyze the US Stock price
