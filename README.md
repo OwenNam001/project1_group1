@@ -9,13 +9,13 @@
 - We will explore to identify the correlations between various macroeconomic indicators and US stock prices
 
 << Stock Profits vs Month >>
-- Monthly profits average (10 years) for each month (correlation between price and Month) by bar chart <Rekha>
+- Monthly profits average (10 years) for each month (correlation between price and Month) by bar chart (Rekha)
 
 << Stock Profits vs US Presidential election year or normal year >>
-- Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) by scatter plot <Rekha>
+- Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) by scatter plot (Rekha)
 
 << Stock Profits vs unemployeement >>
-- Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API <Yau Shu>
+- Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
 - Monthly profits [same month with unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API <Yau Shu>
 - Monthly profits [one month after unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API <Yau Shu>
 - Monthly closing Stock price and unemployeement rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot <Jun>
