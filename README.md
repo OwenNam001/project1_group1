@@ -40,8 +40,8 @@
 - Daily closing Stock price and VIX index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
 
 << Stock Profits vs Gold Price, BITCOIN >>
-- Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API (Rekah)
-- Monthly profits (y-axis) vs Monthly BITCOIN Price change (x-axis) by scatter plot using Alphavantage API (Rekah)
+- Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API (Yau Shu)
+- Monthly profits (y-axis) vs Monthly BITCOIN Price change (x-axis) by scatter plot using Alphavantage API (Bailey)
 
 ## Datasets to Be Used
 - https://data.nasdaq.com/api/v3/datasets/WIKI/AAPL.json?start_date=1985-05-01&end_date=1997-07-01&order=asc&column_index=4&collapse=quarterly&transformation=rdiff
