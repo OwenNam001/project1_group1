@@ -1,1 +1,1 @@
-data_nasdaq_api_key = 't7zzdyKQAmZX6pCWumW'
+data_nasdaq_api_key = 'XXXXXXXXXX'
