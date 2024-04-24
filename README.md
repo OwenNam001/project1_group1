@@ -16,32 +16,32 @@
 
 << Stock Profits vs unemployeement >>
 - Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
-- Monthly profits [same month with unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API <Yau Shu>
-- Monthly profits [one month after unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API <Yau Shu>
-- Monthly closing Stock price and unemployeement rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot <Jun>
+- Monthly profits [same month with unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
+- Monthly profits [one month after unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
+- Monthly closing Stock price and unemployeement rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot (Jun)
 
 << Stock Profits vs Interest rate >>
-- Monthly profits [one month before interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API <Bailey>
-- Monthly profits [same month with interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API <Bailey>
-- Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API <Bailey>
-- Monthly closing Stock price and Interest rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot <Jun>
+- Monthly profits [one month before interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
+- Monthly profits [same month with interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
+- Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
+- Monthly closing Stock price and Interest rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot (Jun)
 
 << Stock Profits vs 2 year US Bond rate>>
-- Monthly profits (y-axis) vs 2 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API <Jun>
-- Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API <Jun>
-- Daily closing Stock price and 2, 10 year US Bond rate (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot <Jun>
+- Monthly profits (y-axis) vs 2 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun)
+- Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun)
+- Daily closing Stock price and 2, 10 year US Bond rate (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Jun)
 
 << Stock Profits vs US Dollar index >>
-- Monthly profits (y-axis) vs Monthly dollar index change (x-axis) by scatter plot using Alphavantage API <Yau Shu>
-- Daily closing Stock price and US Dollar index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot <Bailey>
+- Monthly profits (y-axis) vs Monthly dollar index change (x-axis) by scatter plot using Alphavantage API (Yau Shu)
+- Daily closing Stock price and US Dollar index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
 
 << Stock Profits vs US Volatility index (VIX) >>
-- Daily profits (y-axis) vs Daily VIX index change (x-axis) by scatter plot using Alphavantage API <Yau Shu>
-- Daily closing Stock price and VIX index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot <Bailey>
+- Daily profits (y-axis) vs Daily VIX index change (x-axis) by scatter plot using Alphavantage API (Yau Shu)
+- Daily closing Stock price and VIX index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
 
 << Stock Profits vs Gold Price, BITCOIN >>
-- Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API <Rekah>
-- Monthly profits (y-axis) vs Monthly BITCOIN Price change (x-axis) by scatter plot using Alphavantage API <Rekah>
+- Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API (Rekah)
+- Monthly profits (y-axis) vs Monthly BITCOIN Price change (x-axis) by scatter plot using Alphavantage API (Rekah)
 
 ## Datasets to Be Used
 - https://data.nasdaq.com/api/v3/datasets/WIKI/AAPL.json?start_date=1985-05-01&end_date=1997-07-01&order=asc&column_index=4&collapse=quarterly&transformation=rdiff
