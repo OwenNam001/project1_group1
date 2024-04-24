@@ -4,6 +4,8 @@
 
 ## Team Members : Jun Nam, Yau Shu Wong, Bailey, Rekha
 
+## Working file name should be yourname suffix to prevent conflict, Will make naming convention
+
 ## Project Description / Outline  
 
 - We will explore to identify the correlations between various macroeconomic indicators and US stock prices
