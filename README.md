@@ -12,6 +12,7 @@
 
 << Stock Profits vs Month >>
 - Monthly profits average (10 years) for each month (correlation between price and Month) by bar chart (Rekha)
+- Monthly profits for each 10 years. month (x-axis) (correlation between price and Month) by multiple line chart (Jun)
 
 << Stock Profits vs US Presidential election year or normal year >>
 - Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) by scatter plot (Rekha)
