@@ -20,13 +20,13 @@
 - Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
 - Monthly profits [same month with unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
 - Monthly profits [one month after unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
-- Monthly closing Stock price and unemployeement rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot (Jun)
+- Monthly closing Stock price and unemployeement rate (y-axis), Year, Month combined (x-axis) for 10 years by line plot (Jun)
 
 << Stock Profits vs Interest rate >>
 - Monthly profits [one month before interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
 - Monthly profits [same month with interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
 - Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
-- Monthly closing Stock price and Interest rate (y-axis : scaling 0 ~ 1), Month (x-axis) for 10 years by line plot (Jun)
+- Monthly closing Stock price and Interest rate (y-axis), Year, Month combined (x-axis) for 10 years by line plot (Jun)
 
 << Stock Profits vs 2 year US Bond rate>>
 - Monthly profits (y-axis) vs 2 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun)
