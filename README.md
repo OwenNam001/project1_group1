@@ -11,7 +11,7 @@
 - We will explore to identify the correlations between various macroeconomic indicators and US stock prices
 
 << Stock Profits vs Month >>
-- Avg. profits for each Month over 10 years. month (x-axis) (correlation between price and Month) by multiple line chart (Jun)
+- Profits for each Month over 10 years. month (x-axis) (correlation between price and Month) by multiple line chart (Jun)
 
 << Stock Profits vs US Presidential election year or normal year >>
 - Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) by scatter plot (Rekha)
