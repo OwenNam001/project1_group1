@@ -30,8 +30,8 @@
 
 << Stock Profits vs US Bond rate>>
 - Monthly profits (y-axis) vs 2 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun) - draft done
-- Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun) 
-- Daily closing Stock price and 2, 10 year US Bond rate (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Jun)
+- Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun) - draft done 
+- Daily closing Stock price and 2, 10 year US Bond rate (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Jun) - draft done
 
 << Stock Profits vs US Dollar index >>
 - Monthly profits (y-axis) vs Monthly dollar index change (x-axis) by scatter plot using Alphavantage API (Yau Shu)
