@@ -33,13 +33,13 @@
 - Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun) - draft done 
 - Daily closing Stock price and 2, 10 year US Bond rate (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Jun) - draft done
 
-<< Stock Profits vs US Dollar index >>
-- Monthly profits (y-axis) vs Monthly dollar index change (x-axis) by scatter plot using Alphavantage API (Yau Shu)
-- Daily closing Stock price and US Dollar index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
+<< Stock Profits vs US Real GDP per Capita >>
+- Quarterly profits (y-axis) vs Quarterly Real GDP per Capita (x-axis) by scatter plot using Alphavantage API (Yau Shu)
+- Daily closing Stock price and US Real GDP per Capita (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
 
-<< Stock Profits vs US Volatility index (VIX) >>
-- Daily profits (y-axis) vs Daily VIX index change (x-axis) by scatter plot using Alphavantage API (Yau Shu)
-- Daily closing Stock price and VIX index (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
+<< Stock Profits vs US CPI >>
+- Monthly profits (y-axis) vs Monthly US CPI (x-axis) by scatter plot using Alphavantage API (Yau Shu)
+- Daily closing Stock price and US CPI (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
 
 << Stock Profits vs Gold Price, BITCOIN >>
 - Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API (Rekha)
