@@ -10,23 +10,22 @@ from api_keys import bls_api_key
 
 # Create a dataFrame for Monthly Unployment Rate
 
-URL = 'https://api.bls.gov/publicAPI/v2/timeseries/data/'
+base_url = 'https://api.bls.gov/publicAPI/v2/timeseries/data/'
 
-api_key = bls_api_key
-series_id = 'LNS14000000'  # Series ID for US unemployment rate
-startyear = '2014'
-endyear = '2019'
+# Set parameters
+seriesid = 'LNS14000000'
+startyear = 2010
+endyear = 2019
+registrationkey = bls_api_key
 
 # Parameter setting
-params = {
-    'seriesid': series_id,
-    'startyear':startyear,
-    'endyear': endyear,
-    'registrationKey': api_key
-}
+params = {'seriesid':[seriesid],
+          'startyear':startyear,
+          'endyear':endyear,
+          'registrationkey':registrationkey}
 
 # Fetch unemployment data from BLS
-response = requests.post(URL, json=params)
+response = requests.post(base_url, json=params)
 unemployment_data = response.json()
 
 
@@ -46,5 +45,7 @@ def get_unemployment_data():
     # Convert the list to a DataFrame
     unemployment_data_df = pd.DataFrame(unemployment_list).reset_index(drop=True)
     unemployment_data_df["Rate"] = unemployment_data_df["Rate"].astype('float')
+    unemployment_data_df['Year'] = unemployment_data_df['Year'].astype(object)
+    unemployment_data_df['Month'] = unemployment_data_df['Month'].astype(object)
 
     return unemployment_data_df
