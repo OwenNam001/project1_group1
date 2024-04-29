@@ -45,7 +45,7 @@ def get_unemployment_data():
     # Convert the list to a DataFrame
     unemployment_data_df = pd.DataFrame(unemployment_list).reset_index(drop=True)
     unemployment_data_df["Rate"] = unemployment_data_df["Rate"].astype('float')
-    unemployment_data_df['Year'] = unemployment_data_df['Year'].astype(int)
+    unemployment_data_df['Year'] = unemployment_data_df['Year'].astype(object)
     unemployment_data_df['Month'] = unemployment_data_df['Month'].astype(object)
 
     return unemployment_data_df
