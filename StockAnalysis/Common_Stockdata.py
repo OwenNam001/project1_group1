@@ -13,6 +13,7 @@ from api_keys import alpha_vantage_api_key
 stock_symbol = 'QQQ'
 start_date = '2010-01-01'
 end_date = '2019-12-31'
+
 URL = f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={stock_symbol}&apikey={alpha_vantage_api_key}&outputsize=full'
 
 
@@ -45,6 +46,39 @@ def get_stock_data():
 
     # Date, Month Column creation by using Date
     stock_info_df['Year'] = stock_info_df['Date'].dt.year
+
     stock_info_df['Month_Number'] = stock_info_df['Date'].dt.month
 
     return stock_info_df
+
+
+
+def get_stock_long_data():
+    # Define an empty list to fetch the stock data
+    stock_data = []
+
+    for date, values in response['Time Series (Daily)'].items():
+        stock_data.append({
+            "Date": date,
+            "Open": values['1. open'],
+            "High": values['2. high'],
+            "Low": values['3. low'],
+            "Close": values['4. close'],
+            "Volume": values['5. volume']
+        })
+
+    # Conver List to dataFrame
+    stock_info_df = pd.DataFrame(stock_data)    
+
+    stock_info_df.reset_index()
+    stock_info_df['Date'] = pd.to_datetime(stock_info_df['Date'])
+    stock_info_df['Open'] = stock_info_df['Open'].astype(float)
+    stock_info_df['Close'] = stock_info_df['Close'].astype(float)
+
+
+    # Date, Month Column creation by using Date
+    stock_info_df['Year'] = stock_info_df['Date'].dt.year
+
+    stock_info_df['Month_Number'] = stock_info_df['Date'].dt.month
+
+    return get_stock_long_data
