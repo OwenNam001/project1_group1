@@ -94,7 +94,7 @@ def get_stock_long_data():
         stock_info_df['Month_Number'] = stock_info_df['Date'].dt.month
 
         return get_stock_long_data
-        except KeyError as e:
+    except KeyError as e:
         print(f"Key error: {e} - Check Response dictionary or data keys.")
         return None
     except ValueError as e:
