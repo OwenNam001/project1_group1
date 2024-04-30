@@ -21,22 +21,32 @@ FEDFUNDparams = {
 response_data = requests.get(url, params=FEDFUNDparams).json()
 
 def get_interest_data():
-    ## FRED API dataframe
-    datatotal = 0
-    updated_date = []
-    updated_rate = [] # assigned variables outside forloop with empty variables ready to be appended
-    # For loop will take the date and rate from the json file for the 10 years requested and add the values to a new array
-    for observation in response_data["observations"]:
-        date = observation["date"]
-        interest_rate = observation["value"]
-        updated_date.append(date)
-        updated_rate.append(interest_rate)
-        datatotal = datatotal + 1
+    try:
+        ## FRED API dataframe
+        datatotal = 0
+        updated_date = []
+        updated_rate = [] # assigned variables outside forloop with empty variables ready to be appended
+        # For loop will take the date and rate from the json file for the 10 years requested and add the values to a new array
+        for observation in response_data["observations"]:
+            date = observation["date"]
+            interest_rate = observation["value"]
+            updated_date.append(date)
+            updated_rate.append(interest_rate)
+            datatotal = datatotal + 1
 
-    monthly_interest_df = pd.DataFrame({
-        "Date" : updated_date,
-        "Interest_Rate" : updated_rate
-        })
-    monthly_interest_df[['Year', 'Month', 'Day']] = monthly_interest_df["Date"].str.split('-', expand=True)
-    monthly_interest_df["Month"] = monthly_interest_df['Month'].astype(float) # year and month both needed to change to float for the merge
-    return monthly_interest_df
+        monthly_interest_df = pd.DataFrame({
+            "Date" : updated_date,
+            "Interest_Rate" : updated_rate
+            })
+        monthly_interest_df[['Year', 'Month', 'Day']] = monthly_interest_df["Date"].str.split('-', expand=True)
+        monthly_interest_df["Month"] = monthly_interest_df['Month'].astype(float) # year and month both needed to change to float for the merge
+        return monthly_interest_df
+    except KeyError as e:
+        print(f"Key error: {e} - Check Response dictionary or data keys.")
+        return None
+    except ValueError as e:
+        print(f"Value error: {e} - Check Data types and conversions.")
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return None    
