@@ -1,4 +1,4 @@
-# Module to aquire info from FRED API, used for Interest Rates, 
+# Common Module to aquire info from FRED API, used for Interest Rates, 
 
 # Dependencies and Setup
 import requests
@@ -39,4 +39,8 @@ def get_interest_data():
         })
     monthly_interest_df[['Year', 'Month', 'Day']] = monthly_interest_df["Date"].str.split('-', expand=True)
     monthly_interest_df["Month"] = monthly_interest_df['Month'].astype(float) # year and month both needed to change to float for the merge
+
+    # Data Cleanding - Drop all rows with missing information
+    monthly_interest_df = monthly_interest_df.dropna(how='any')
+
     return monthly_interest_df
