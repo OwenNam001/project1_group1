@@ -50,6 +50,9 @@ def get_stock_data():
 
         stock_info_df['Month_Number'] = stock_info_df['Date'].dt.month
 
+        # Data Cleanding - Drop all rows with missing information
+        stock_info_df = stock_info_df.dropna(how='any')
+
         return stock_info_df
     
     except KeyError as e:
