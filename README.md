@@ -11,7 +11,7 @@
 - We will explore to identify the correlations between various macroeconomic indicators and US stock prices
 
 << Stock Profits vs Month >>
-- Monthly Profits over 10 years. month (x-axis) (correlation between price and Month) (Jun) - 01.Yearly_Monthly_Profits.ipynb
+- Monthly Profits over 10 years. month (x-axis) (correlation between price and Month) (Jun) **01.Yearly_Monthly_Profits.ipynb**
 
 << Stock Profits vs US Presidential election year or normal year >>
 - Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) (Rekha) **02.Yearly_Profits_Election.ipynb**
