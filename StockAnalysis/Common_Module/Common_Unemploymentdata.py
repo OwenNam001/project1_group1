@@ -48,4 +48,7 @@ def get_unemployment_data():
     unemployment_data_df['Year'] = unemployment_data_df['Year'].astype(object)
     unemployment_data_df['Month'] = unemployment_data_df['Month'].astype(object)
 
+    # Data Cleanding - Drop all rows with missing information
+    unemployment_data_df = unemployment_data_df.dropna(how='any')    
+
     return unemployment_data_df

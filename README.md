@@ -11,27 +11,27 @@
 - We will explore to identify the correlations between various macroeconomic indicators and US stock prices
 
 << Stock Profits vs Month >>
-- Monthly Profits over 10 years. month (x-axis) (correlation between price and Month) by multiple line chart (Jun) - draft done
+- Monthly Profits over 10 years. month (x-axis) (correlation between price and Month) (Jun) **01.Yearly_Monthly_Profits.ipynb**
 
 << Stock Profits vs US Presidential election year or normal year >>
-- Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) by scatter plot (Rekha)
+- Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) (Rekha) **02.Yearly_Profits_Election.ipynb**
 
 << Stock Profits vs unemployeement >>
-- Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
-- Monthly profits [same month with unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
-- Monthly profits [one month after unemployeement announce] (y-axis) vs unemployeement rate (x-axis) by scatter plot using BLS API (Yau Shu)
-- Monthly closing Stock price and unemployeement rate (y-axis), Year, Month combined (x-axis) for 10 years by line plot (Jun) - draft done
+- Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) (Yau Shu) **03.Monthly_Profits_Unemploy_1Mago.ipynb**
+- Monthly profits [same month with unemployeement announce] (y-axis) vs unemployeement rate (x-axis) (Yau Shu) **04.Monthly_Profits_Unemploy_M.ipynb**
+- Monthly profits [one month after unemployeement announce] (y-axis) vs unemployeement rate (x-axis) (Yau Shu) **05.Monthly_Profits_Unemploy_1Mafter.ipynb**
+- Monthly closing Stock price and unemployeement rate (y-axis), Year, Month combined (x-axis) for 10 years (Jun) **06.Monthly_Closing_Unemploy.ipynb**
 
 << Stock Profits vs Interest rate >>
-- Monthly profits [one month before interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
-- Monthly profits [same month with interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
-- Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) by scatter plot using FRED API (Bailey)
-- Monthly closing Stock price and Interest rate (y-axis), Year, Month combined (x-axis) for 10 years by line plot (Jun) - draft done
+- Monthly profits [one month before interest rate announce] (y-axis) vs interest rate (x-axis) (Bailey) **07.Monthly_Profits_Fundrate_1Mago.ipynb**
+- Monthly profits [same month with interest rate announce] (y-axis) vs interest rate (x-axis) (Bailey) **08.Monthly_Profits_Fundrate_M.ipynb**
+- Monthly profits [one month after interest rate announce] (y-axis) vs interest rate (x-axis) (Bailey) **09.Monthly_Profits_Fundrate_1Mafter.ipynb**
+- Monthly closing Stock price and Interest rate (y-axis), Year, Month combined (x-axis) for 10 years (Jun) **10.Monthly_Closing_Fundrate.ipynb**
 
 << Stock Profits vs US Bond rate>>
-- Monthly profits (y-axis) vs 2 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun) - draft done
-- Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) by scatter plot using Fiscal Data API (Jun) - draft done 
-- Daily closing Stock price and 2, 10 year US Bond rate (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Jun) - draft done
+- Monthly profits (y-axis) vs 2 year US Bond Monthly rate change (x-axis) (Jun) **11.Monthly_Profits_2YearBond.ipynb**
+- Monthly profits (y-axis) vs 10 year US Bond Monthly rate change (x-axis) (Jun) **12.Monthly_Profits_10YearBond.ipynb**
+- Monthly closing Stock price and 2, 10 year US Bond rate Year, Month combined (x-axis) for 10 years (Jun) **13.Monthly_Closing_Bond.ipynb**
 
 << Stock Profits vs US Real GDP per Capita >>
 - Quarterly profits (y-axis) vs Quarterly Real GDP per Capita (x-axis) by scatter plot using Alphavantage API (Yau Shu)
