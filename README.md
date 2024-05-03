@@ -34,11 +34,11 @@
 - Monthly closing Stock price and 2, 10 year US Bond rate Year, Month combined (x-axis) for 10 years (Jun) **13.Monthly_Closing_Bond.ipynb**
 
 << Stock Profits vs US Real GDP per Capita >>
-- Quarterly profits (y-axis) vs Quarterly Real GDP per Capita (x-axis) by scatter plot using Alphavantage API (Yau Shu)
+- Monthly profits (y-axis) vs Quarterly Real GDP per Capita (x-axis) by scatter plot using Alphavantage API (Yau Shu) **14.Monthly_Profits_GDP.ipynb**
 - Daily closing Stock price and US Real GDP per Capita Daily (x-axis) for 10 years by line plot (Bailey) **15.Daily_Closing_vs_RealGDP.ipynb**
 
 << Stock Profits vs US CPI >>
-- Monthly profits (y-axis) vs Monthly US CPI (x-axis) by scatter plot using Alphavantage API (Yau Shu)
+- Monthly profits (y-axis) vs Monthly US CPI (x-axis) by scatter plot using Alphavantage API (Yau Shu) **16.Monthly_Profits_CPI.ipynb**
 - Daily closing Stock price and US CPI Daily (x-axis) for 10 years by line plot (Bailey) **17.Daily_Closing_vs_US_CPI.ipynb**
 
 << Stock Profits vs Gold Price, BITCOIN >>
