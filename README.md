@@ -35,11 +35,11 @@
 
 << Stock Profits vs US Real GDP per Capita >>
 - Quarterly profits (y-axis) vs Quarterly Real GDP per Capita (x-axis) by scatter plot using Alphavantage API (Yau Shu)
-- Daily closing Stock price and US Real GDP per Capita (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
+- Daily closing Stock price and US Real GDP per Capita Daily (x-axis) for 10 years by line plot (Bailey) **15.Daily_Closing_vs_RealGDP.ipynb**
 
 << Stock Profits vs US CPI >>
 - Monthly profits (y-axis) vs Monthly US CPI (x-axis) by scatter plot using Alphavantage API (Yau Shu)
-- Daily closing Stock price and US CPI (y-axis : scaling 0 ~ 1), Daily (x-axis) for 10 years by line plot (Bailey)
+- Daily closing Stock price and US CPI Daily (x-axis) for 10 years by line plot (Bailey) **17.Daily_Closing_vs_US_CPI.ipynb**
 
 << Stock Profits vs Gold Price, BITCOIN >>
 - Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API (Rekha)
