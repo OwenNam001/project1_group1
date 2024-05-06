@@ -1,4 +1,4 @@
-# project1_group1 (DUE DATE : 6th of May)
+# project1_group1
 
 ## Title : Exploring Correlations in the Stock Market
 
@@ -12,9 +12,6 @@
 
 << Stock Profits vs Month >>
 - Monthly Profits over 10 years. month (x-axis) (correlation between price and Month) (Jun) **01.Yearly_Monthly_Profits.ipynb**
-
-<< Stock Profits vs US Presidential election year or normal year >>
-- Yearly profits (y-axis) for year (x-axis) presidential election year (red dot), non presidential election year by (blue dot) (Rekha) **02.Yearly_Profits_Election.ipynb**
 
 << Stock Profits vs unemployeement >>
 - Monthly profits [one month before unemployeement announce] (y-axis) vs unemployeement rate (x-axis) (Yau Shu) **03.Monthly_Profits_Unemploy_1Mago.ipynb**
@@ -41,15 +38,9 @@
 - Monthly profits (y-axis) vs Monthly US CPI (x-axis) by scatter plot using Alphavantage API (Yau Shu) **16.Monthly_Profits_CPI.ipynb**
 - Daily closing Stock price and US CPI Daily (x-axis) for 10 years by line plot (Bailey) **17.Daily_Closing_vs_US_CPI.ipynb**
 
-<< Stock Profits vs Gold Price, BITCOIN >>
-- Monthly profits (y-axis) vs Monthly Gold Price change (x-axis) by scatter plot using Alphavantage API (Rekha)
-- Monthly profits (y-axis) vs Monthly BITCOIN Price change (x-axis) by scatter plot using Alphavantage API (Rekha)
-
 ## Datasets to Be Used
-- https://data.nasdaq.com/api/v3/datasets/WIKI/AAPL.json?start_date=1985-05-01&end_date=1997-07-01&order=asc&column_index=4&collapse=quarterly&transformation=rdiff
 - BLS (U.S Bureau of Labor Statistics) API : https://www.bls.gov/developers/
 - FRED (economic) API : https://fred.stlouisfed.org/docs/api/fred/
-- Fiscaldata treasury : https://fiscaldata.treasury.gov/api-documentation
 - Alphavantage API : https://www.alphavantage.co/documentation/
 
 ## Breakdown of Tasks
